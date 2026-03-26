@@ -42,3 +42,5 @@ Design: Google Fonts (Inter), Glassmorphism, Responsive Mobile-First Design
 4.Manage: Delete old entries or use the search bar to find specific past spends.
 
 5.Export: Use the "Get Statement" button to save your data locally.
+
+Live demo-: https://vanshikamishra395.github.io/Expense-Tracker/
