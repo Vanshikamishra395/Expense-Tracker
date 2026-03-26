@@ -1,46 +1,54 @@
-<img width="443" height="817" alt="Screenshot 2026-03-26 134106" src="https://github.com/user-attachments/assets/d923ab47-ff80-4369-856b-79081a4295d3" />
-<img width="490" height="729" alt="Screenshot 2026-03-26 134116" src="https://github.com/user-attachments/assets/83deec50-7db6-4229-82d6-0eb429135262" />
-<img width="532" height="850" alt="Screenshot 2026-03-26 134123" src="https://github.com/user-attachments/assets/99c83793-e9d0-499a-b2ae-f749873c185e" />
+# 💰 Expense Tracker Web App
 
-💰Expense-Tracker
-A sophisticated, glassmorphism-inspired financial dashboard built to help users monitor their daily spending with precision. This application moves beyond simple data entry by providing real-time insights, budget tracking, and data persistence.
+A modern and responsive Expense Tracker built using HTML, CSS, and JavaScript.  
+This project helps users track income and expenses with real-time balance updates and local storage support.
 
-✨Key Features
+## 🚀 Live Demo
+🔗 https://vanshikamishra395.github.io/Expense-Tracker/
 
-->Glassmorphism UI: A modern, semi-transparent aesthetic with smooth CSS transitions and an interactive layout.
 
-->Smart Categorization: Tag every transaction (Food, Salary, Transport, etc.) to understand spending habits.
+## ✨ Features
 
-->Interactive Dashboard: * Live Balance Card: Real-time calculation of Total Balance, Income, and Expenses.
+✔ Add Income & Expenses
 
-->Dynamic Budget Bar: A visual progress indicator that warns you when expenses approach your monthly limit.
+✔ Delete Transactions  
 
-->Real-time Search & Filter: Quickly find transactions using the live search bar or filter by type (Income/Expense).
+✔ Real-Time Balance Calculation  
 
-->Data Persistence: Uses localStorage to ensure your financial data remains safe even after a page refresh.
+✔ Filter by Income / Expense  
 
-->Statement Export: One-click download to export your full transaction history as a CSV file (compatible with Excel/Google Sheets).
+✔ Data Saved using LocalStorage  
 
-🛠️ Tech Stack
+✔ Responsive UI Design  
 
-Frontend: HTML5, CSS3 (Flexbox/Grid, Custom Variables, Animations)
 
-Logic: Vanilla JavaScript (ES6+)
 
-Storage: Browser LocalStorage API
+## 🛠 Tech Stack
 
-Design: Google Fonts (Inter), Glassmorphism, Responsive Mobile-First Design
+- HTML
+  
+- CSS
+  
+- JavaScript (Vanilla JS)
+  
+- LocalStorage API
 
-🚀 How to Use
+##📸SCREENSHOTS OF THE APPLICATION-:
 
-1.Add Transaction: Enter a description and use + for income or - for expenses.
+<img width="443" height="817" alt="Screenshot 2026-03-26 134106" src="https://github.com/user-attachments/assets/f3f6ddb4-a8d1-48cb-b0d3-4367e9612822" />
+<img width="490" height="729" alt="Screenshot 2026-03-26 134116" src="https://github.com/user-attachments/assets/322f43ff-2fdf-4c04-b372-59e1f91fb9ba" />
+<img width="532" height="850" alt="Screenshot 2026-03-26 134123" src="https://github.com/user-attachments/assets/6a3c801d-a6a7-4d42-b4bd-a169348d468e" />
 
-2.Select Category: Choose the relevant tag to keep your dashboard organized.
+## 🎯 Learning Outcome
 
-3.Monitor Budget: Watch the progress bar on the main balance card to stay within your limits.
+This project helped me understand:
 
-4.Manage: Delete old entries or use the search bar to find specific past spends.
-
-5.Export: Use the "Get Statement" button to save your data locally.
-
-🌐Live demo-: https://vanshikamishra395.github.io/Expense-Tracker/
+- DOM Manipulation
+  
+- Event Handling
+  
+- Data Persistence using LocalStorage
+  
+- Dynamic UI Updates
+  
+- Git & GitHub Deployment
