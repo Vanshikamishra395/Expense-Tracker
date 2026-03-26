@@ -43,4 +43,4 @@ Design: Google Fonts (Inter), Glassmorphism, Responsive Mobile-First Design
 
 5.Export: Use the "Get Statement" button to save your data locally.
 
-Live demo-: https://vanshikamishra395.github.io/Expense-Tracker/
+🌐Live demo-: https://vanshikamishra395.github.io/Expense-Tracker/
