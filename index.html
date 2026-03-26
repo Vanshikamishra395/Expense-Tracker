@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elite Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="glass-bg"></div>
+
+<div class="container">
+  <header>
+    <h1>Smart<span>Tracker</span></h1>
+    <button class="stmt-btn" onclick="generateStatement()">Get Statement</button>
+  </header>
+
+  <div class="balance-card">
+    <div class="balance-info">
+      <p>Current Balance</p>
+      <h2 id="balance">₹0</h2>
+    </div>
+    <div class="progress-wrapper">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <small id="budget-status">Monthly Budget Safe</small>
+  </div>
+
+  <div class="summary-grid">
+    <div class="box income">
+      <small>Income</small>
+      <h3 id="income">₹0</h3>
+    </div>
+    <div class="box expense">
+      <small>Expenses</small>
+      <h3 id="expense">₹0</h3>
+    </div>
+  </div>
+
+  <div class="search-area">
+    <input type="text" id="search" placeholder="Search transactions..." onkeyup="renderTransactions()">
+  </div>
+
+  <div class="filter-tabs">
+    <button class="tab active" onclick="setFilter('all', this)">All</button>
+    <button class="tab" onclick="setFilter('income', this)">Income</button>
+    <button class="tab" onclick="setFilter('expense', this)">Expense</button>
+  </div>
+
+  <form id="form" class="transaction-form">
+    <div class="input-group">
+      <input type="text" id="text" placeholder="Description" required>
+      <input type="number" id="amount" placeholder="Amount (+/-)" required>
+    </div>
+    <div class="input-group">
+      <select id="category">
+        <option value="Salary">💰 Salary</option>
+        <option value="Food">🍔 Food</option>
+        <option value="Transport">🚗 Transport</option>
+        <option value="Shopping">🛍️ Shopping</option>
+        <option value="Health">💊 Health</option>
+        <option value="General">✨ Other</option>
+      </select>
+      <button type="submit" class="add-btn">Add</button>
+    </div>
+  </form>
+
+  <div class="list-container">
+    <ul id="list"></ul>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
